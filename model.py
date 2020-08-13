@@ -8,6 +8,8 @@ messages = pd.read_csv('spam.csv', encoding='ISO-8859-1')
 #Data cleaning and preprocessing
 import re
 import nltk
+nltk.download()
+nltk.data.path.append('C:/Users/Sazid/Desktop/yati/Projects/NLP/NLP-Deployment-Heroku-master/NLP-Deployment-Heroku-master/flask\nltk_data')
 nltk.download('stopwords')
 
 from nltk.corpus import stopwords
